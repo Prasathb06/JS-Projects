@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+margin: 0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background:url('./Images/BG\ img\ 1.jpg');
+  background-size: cover;
+  background-position: center;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.timer{
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+}
+@media (min-width:320px) {
+    .timer{
+        width: 70%;
+    }
+  }
+
+h1{
+  text-align: center;
+}
+
+.newyear{
+  font-family: 'Inspiration', cursive;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.box{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.box h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+.box small{
+  font-size: 10px;
+}
+@media (min-width:425px) {
+  h1{
+    font-size: 18px;
+  }
+  .newyear{
+    font-size: 100px;
+  }
+  .counter{
+    text-align: center;
+  }
+  .box{
+    width: 100px;
+    height: 70px;
+  }
+
+  .box h2{
+    font-size: 30px;
+  }
+  .box small{
+    font-size:15px;
+  }
+}
+
+@media (min-width:768px) {
+  h1{
+    font-size: 25px;
+  }
+  .newyear{
+    font-size: 150px;
+  }
+  .counter{
+    text-align: center;
+  }
+  .box{
+    width: 150px;
+    height: 100px;
+  }
+
+  .box h2{
+    font-size: 50px;
+  }
+  .box small{
+    font-size:20px;
+  }
+}
