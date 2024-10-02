@@ -20,6 +20,10 @@ function UpdateTime(){
   hours.innerHTML=h<10?"0"+h:h;
   minutes.innerHTML=m<10?"0"+m:m;
   seconds.innerHTML=s<10?"0"+s:s;
-  // mseconds.innerHTML=ms<10?"0"+ms:ms;
+  // mseconds.innerHTML=ms<10?"0"+ms:ms;}  
 }
 setInterval(UpdateTime,1000);
+
+ 
+
+console.log(new Date().getFullYear( ));
