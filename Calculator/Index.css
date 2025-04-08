@@ -1,0 +1,45 @@
+.cals{
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    width: 30vw;
+    height: 70vh;
+    top: 100px;
+    gap: 5px;
+    display: grid;
+    padding: 15px;
+    
+}
+.cals>.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.cals>.form-group>button{
+    width: 25%;
+    font-size: 16px;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+}
+.cals>.form-group>button:hover{
+    background-color: bisque;
+}
+.cals>.form-group>input{
+    width: 100%;
+    font-size: 25px;
+    cursor: text;
+    border: 1px solid rgb(201, 195, 195);
+    outline: none;
+    text-align: end;
+    border-radius: 5px;
+    padding: 10px;
+}
+.cals>.form-group>.equal{
+    color: antiquewhite;
+    background-color: blue;
+    font-size: 30px;
+}
+.cals>.form-group>.equal:hover{
+    background-color: rgb(61, 61, 158);
+}
